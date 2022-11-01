@@ -169,3 +169,31 @@ List Products:
     1. create my order api
     2. create order history component
     3. fetch orders and display them# test
+
+    Publish On Vercel
+    106. create vercel account
+    107. connect to github
+    108. set next auth and mongodb db in env vars
+    109. push code to github
+
+    Update User Profile
+    110. Pages>Profile.js - to update the user profile
+    111. api>auth>update - created the backend api to update the existing user details
+    1. create profile screen
+    2. show user info
+    3. handle update user info
+
+
+    *****************************
+
+
+
+    Create Admin Dashboard
+    112. Layout.js - Add conditional admin dashboard link to the dropdown
+    113. Package.json - added react-chartjs-2 and chart.js to show the monthly sales data in graph
+    114. App.js - check for Admin only user with Auth
+    115. Dashboard Screen to show the data to admin in this screen
+    116. API>ADMIN>SUMMARY.JS - created api to retun the orders, products, users, sales data
+    1. Create Admin Menu
+    2. create dashboard screen
+    3. Implement admin summary api

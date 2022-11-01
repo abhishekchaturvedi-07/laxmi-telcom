@@ -78,6 +78,16 @@ export default function Layout({ title, children }) {
                       Order History
                     </DropdownLink>
                   </Menu.Item>
+                  {session.user.isAdmin && (
+                      <Menu.Item>
+                        <DropdownLink
+                          className="dropdown-link"
+                          href="/admin/dashboard"
+                        >
+                          Admin Dashboard
+                        </DropdownLink>
+                      </Menu.Item>
+                    )}
                   <Menu.Item>
                     <a
                       className="dropdown-link"
@@ -99,7 +109,7 @@ export default function Layout({ title, children }) {
         </header>
         <main className="container m-auto mt-4 px-4">{children}</main>
         <footer className="flex h-10 justify-center items-center shadow-inner">
-          <p>Copyright © 2022 Amazona</p>
+          <p>Copyright © 2022 Laxmi Telcom</p>
         </footer>
       </div>
     </>
