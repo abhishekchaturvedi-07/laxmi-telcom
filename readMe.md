@@ -197,3 +197,11 @@ List Products:
     1. Create Admin Menu
     2. create dashboard screen
     3. Implement admin summary api
+
+
+    List Orders For Admin
+    117. pages>admin>order.js - list all user to see the data to the admin
+    118. api>admin>order.js - created api to return/populate all the user with name to the admin
+    1. create orders page
+    2. create orders api
+    3. use api in page
