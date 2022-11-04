@@ -22,7 +22,7 @@ export default function PaymentScreen() {
     }
     dispatch({ type: 'SAVE_PAYMENT_METHOD', payload: selectedPaymentMethod });
     Cookies.set(
-      'cart',
+      'cart',  
       JSON.stringify({
         ...cart,
         paymentMethod: selectedPaymentMethod,
