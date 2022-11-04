@@ -205,3 +205,10 @@ List Products:
     1. create orders page
     2. create orders api
     3. use api in page
+
+    Deliver Order For Admin
+    119. pages>api>admin>orders>[id]>delivery.js - created api at the backend to check and verify the state of delivery status and update it to the backend
+    120. pages>order>[id].js - show deliver order button and implemented the action to deliver the order
+    1. create deliver api
+    2. add deliver button
+    3. implement click handler
