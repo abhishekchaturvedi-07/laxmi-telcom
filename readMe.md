@@ -212,3 +212,17 @@ List Products:
     1. create deliver api
     2. add deliver button
     3. implement click handler
+
+
+    List Products For Admin
+    121. pages > admin > products.js
+    122. api > admin > products > index.js
+    1. create products page
+    2. create products api
+    3. use api in page
+
+    Create Product Edit Page
+    123. 
+    1. create edit page
+    2. create api for product
+    3. show product data in form
